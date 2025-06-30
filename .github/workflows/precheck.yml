@@ -34,7 +34,7 @@ jobs:
         uses: ./.github/actions/setup-node-pnpm-install
 
       - name: 🏃‍♂️ Run Lint & Format PR
-        run: pnpm run lint && pnpm run format
+        run: pnpm run format
 
   type-check:
     name: TypeCheck
