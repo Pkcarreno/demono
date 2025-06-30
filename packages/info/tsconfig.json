@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "bundler",
+    "declaration": true,
+    "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "composite": true,
+    "preserveSymlinks": false,
+    "declarationMap": true
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["src"]
+}
