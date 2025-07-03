@@ -29,7 +29,7 @@
   "author": "Pedro Carreno",
   "license": "ISC",
   "dependencies": {
-    "vite": "^7.0.0"
+    "vite": "^7.0.1"
   },
   "devDependencies": {
     "typescript": "5.8.3",
